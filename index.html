@@ -6,7 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>Toward Ambulatory Vision: Learning Visually-Grounded Active View Selection</title>
-
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563eb',
+            secondary: '#475569',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -28,7 +43,7 @@
 
 <body>
   <div id="root"></div>
-  <script type="module" src="index.tsx"></script>
+  <script type="module" src="./index.tsx"></script>
 </body>
 
 </html>
