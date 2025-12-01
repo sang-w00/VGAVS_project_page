@@ -26,6 +26,8 @@ export interface QualitativeExample {
   think: string;
   action: string;
   imageAlt: string;
+  queryImage?: string;
+  targetImage?: string;
 }
 
 export interface TableRow {

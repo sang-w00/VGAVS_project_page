@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6">
         {PAPER_TITLE}
       </h1>
-      <p className="text-xl md:text-2xl text-slate-600 mb-8 font-medium">
+      {/* <p className="text-xl md:text-2xl text-slate-600 mb-8 font-medium">
         {CONFERENCE}
       </p>
       
@@ -27,7 +27,7 @@ export const Header: React.FC = () => {
 
       <div className="text-slate-500 text-sm">
         Anonymous Authors
-      </div>
+      </div> */}
     </header>
   );
 };
