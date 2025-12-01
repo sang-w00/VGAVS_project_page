@@ -42,7 +42,7 @@ const App: React.FC = () => {
             muted
             playsInline
             className="w-full h-full object-cover"
-            src="/avs_suppl_video.mp4"
+            src="avs_suppl_video.mp4"
           />
         </div>
 

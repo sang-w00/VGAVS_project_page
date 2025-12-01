@@ -36,7 +36,7 @@ export const DetailedQualitativeView: React.FC<DetailedQualitativeViewProps> = (
 
           <div className="bg-white p-4 rounded-2xl shadow-lg border border-slate-200">
             <Figure
-              src="/figures/qualitative.png"
+              src="figures/qualitative.png"
               alt="Qualitative Comparison Strip"
               caption={
                 <span>
@@ -62,7 +62,7 @@ export const DetailedQualitativeView: React.FC<DetailedQualitativeViewProps> = (
 
           <div className="bg-white p-4 rounded-2xl shadow-lg border border-slate-200">
             <Figure
-              src="/figures/EQA.png"
+              src="figures/EQA.png"
               alt="EQA Integration"
               caption={
                 <span>
